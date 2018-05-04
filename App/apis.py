@@ -1,5 +1,7 @@
 from flask_restful import Api, Resource
 
+from App.models import HomeBaner
+
 api = Api()
 
 
@@ -9,6 +11,7 @@ def init_api(app):
 
 class HomeResource(Resource):
     def get(self):
+        homebaners = HomeBaner.query.all()
         return {'msg': 'hello test'}
 
 

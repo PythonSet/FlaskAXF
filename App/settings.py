@@ -21,10 +21,10 @@ class DevelopConfig(Config):
     DEBUG = True
     DATABASE = {
         "USER": "root",
-        "PASSWORD": "rock1204",
+        "PASSWORD": "123456",
         "HOST": "localhost",
         "PORT": "3306",
-        "NAME": "flaskDay06",
+        "NAME": "flaskaxf",
         "DB": "mysql",
         "DRIVER": "pymysql"
     }
